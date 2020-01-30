@@ -212,7 +212,17 @@
                         <p></p>
                     </div>
 
-                    <!-- Gallery -->
+					<!-- Gallery -->
+						<style>
+							@media only screen 
+							and (min-device-width : 320px) 
+							and (max-device-width : 480px) {
+								/* Styles */
+								.gallery img{height :10rem !important; width: 10rem !important;}
+								.gallery .caption{height :10rem !important; width: 10rem !important;}
+								/* .gallery a{height :10rem !important; width: 10rem !important;} */
+							}
+						</style>
                         <div class="gallery style2 medium lightbox onload-fade-in" id="awards">
                              <article>
                                 <a href="images/prez.png" class="image">
