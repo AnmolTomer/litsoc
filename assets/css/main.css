@@ -6679,7 +6679,7 @@
 			display: block;
 			position: relative;
 			overflow: hidden;
-			width: 22.5rem;
+			/* width: 22.5rem; */
 			max-width: 75vw;
 		}
 		@media screen and (max-width: 980px) {
